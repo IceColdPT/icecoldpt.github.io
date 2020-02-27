@@ -1,0 +1,23 @@
+h1{
+    font-family: Lacquer;
+}
+
+.ice_info{
+
+    background-color: lightblue;
+}
+
+.navbar {
+    min-height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .navbar-brand {
+    padding: 0 30px;
+    height: 25px;
+    line-height: 50px;
+  }
+  
+body{
+    background-image: url("img/bg.jpg");
+}
