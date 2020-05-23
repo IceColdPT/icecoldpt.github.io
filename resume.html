@@ -1,178 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159265885-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-159265885-1');
-  </script>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>This is my resume!</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="myscripts.js"></script>
-    <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Quicksand">
-   
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <title>iCE HQ</title>
 </head>
-<body >
-   
-
-    <div style="padding-left: 4px; background-color:rgb(50, 36, 133); color:rgb(207, 208, 221)"> Filipe F: Programmer , Fullstack developer, Web designer</div>
-  
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-          <img src="./img/topIcon.PNG" style="width: 30px;">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+<body>
+  <nav>
+    <div class="nes-container is-rounded is-dark">
+      <div class="topNav">
+        iCE HQ
+      </div>
+      <div class="menuBar">
+        <span><a href="index.html">Main()</a></span>|
+        <span><a href="personal.html">Personal</a></span>|
+        <span><a href="resume.html">Resume</a></span>|
+        <span><a href="contact.html">Contact</a></span>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="flexer">
+      <div class="nes-container is-rounded is-dark">
+        <p class="title">🎓Academic</p>
+        <ul>
+          <li>
+            <div class="intro">Professional Course in Programming</div>
+            <div class="body_inst"><a href="https://epbjc.pt/">Escola Profissional Bento Jesus Caraça</a></div>
+            <div class="body">C# , C++, php, hardware, networking</div>
           </li>
-  
-            <li class="nav-item active">
-              <a class="nav-link" href="resume.html">Resume <span class="sr-only">(current)</span></a>
-            </li>
-          <li class="nav-item">
 
+          <li>
+            <div class="intro">Degree in Bioinformatics</div>
+            <div class="body_inst"><a href="https://www.estbarreiro.ips.pt/">Instituto Politécnico de Setúbal</a></div>
+            <div class="body">Python, Java, Big Data, Data mining, Machine learning, Biotech, bioinformatics</div>
           </li>
-
-      </li>
-
+          <li>
+            <div class="intro">Self-Taught Skills</div>
+           
+            <ul class="body">
+              <li>django</li>
+              <li>unity3d</li>
+              <li>web development</li>
+              <li>linux</li>
+              <li>pen-testing</li>
+            </ul>
+          </li>
 
         </ul>
-        <span class="navbar-text">
-          <a class="nav-link" href="https://github.com/IceColdPT">
-            <img class="d-inline-block align-top" src="img/gh.png" style="width: 25px;"/>
-            </a>
-          </span>
-
-          <span class="navbar-text">
-            <a class="nav-link" href="https://www.linkedin.com/in/filipe-fortunato-783b0a184/">
-              <img class="d-inline-block align-top" src="img/li.png" style="width: 25px;"/>
-              </a>
-          </span>
       </div>
-    </nav>
+      <div class="nes-container is-rounded is-dark">
+        <p class="title">🚧 Projects</p>
 
-      <main>
+        <ul>
+          <li>
+            <div class="intro">Medusa Bot</div>
+            <div class="body">Created a chatbot engine for messenger in pure python with NLTK.</div>
+          </li>
+          <li>
+            <div class="intro">SC2 Advanced</div>
+            <div class="body">Was part of the development team of a game mod for a famous multiplayer game. I programmed in C# and C++</div>
+          </li>
 
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <div class="card" style="width: 28rem;">
-                <div class="card-header">
-                  Highlights
-                </div>
-     
-                <div class="card" style="width: 28rem;">
-                 
-                  <div class="card-body">
-                    <h5 class="card-title">Academic Background</h5>
-                    <p class="card-text">Basic Facts about my academic percourse.</p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><b>Degree in Bioinformatics</b>: Instituto Politécnico de Setúbal
-                    <img src="./img/ips.png" alt="">
-                    </li>
-                    <li class="list-group-item">
-                       <ul>
-                        <b>My skills</b>
-                         <li>Java Programming</li>
-                         <li>Python Programming</li>
-                         <li>Machine Learning</li>
-                         <li>Data Science</li>
-                         <li>Bioinformatics</li>
-                         <li>Molecular dynamics</li>
-                         <li>Linux power user</li>
-                         <li>Self-taught web designer</li>
-                         <li>Fullstack programming with Django Framework</li>
-                         <li>Frontend development with Javascript, CSS and CSS libraries such as Bootstrap.</li>
-                       </ul>
-                    </li>
-                   
-                  </ul>
-  
-                </div>
+          <li>
+            <div class="intro">White Wine Classification using Machine Learning</div>
+            <div class="body">I used Python and Pyspark to code 2 predictive models of a dataset of white wine. It was an University project in the context of Big Data</div>
+          </li>
+
+          <li>
+            <div class="intro">Convolutional Networks to Identify pokemons (Machine Learning)</div>
+            <div class="body">I used python to attempt to create a convolutional network capable of identifying a pokemon by giving any pokemon image as an input. The model was done but with a really bad accuracy. The reason was the dataset used.</div>
+          </li>
+
+          <li>
+            <div class="intro">GTA V mods</div>
+            <div class="body">Before joining University i was an active modder of the Game GTA V using C# .net .</div>
+          </li>
+
+        </ul>
 
 
-              </div>
-            </div>
-            <div class="col">
-              <div class="card" style="width: 28rem;">
-               
-                <div class="card-body">
-                  <h2 class="card-title">Projects i worked on.</h2>
-                  <p class="card-text">These are some projects i have worked.</p>
-                  <ul style="float: left;">
-                    <li >
-                      <h5>Machine Learning to classify the quality of White Wine</h5>
-                      <p>Done as a group project in academic context.
-                        We used PySpark's machine learning module to prepare a dataset and apply machine learning
-                        algorithms to classify the quality of Wine.
-                      </p>
-                    </li>
-                    <li >
-                      <h5>MedusaBot</h5>
-                      <p>My personal project- It is a chatbot for Facebook made in Python.
-                        You can access it's source code in my <a href="https://github.com/IceColdPT/medusaBot" target="_blank" rel="noopener noreferrer"> Github page</a>
-                      </p>
-                    </li>
-                    <li >
-                      <h5>Starcraft 2 Modding</h5>
-                      <p>Used C# and some C++ to develop an External game mod that interacted with the client to help players to play better.
-                      </p>
-                      <p>It was a private project made by a team of 4 people. </p>
-                    </li>
-                    <li>
-                    <h5>C# experience in Unity3D and GTA V modding</h5>
-                    <p>I made mods for GTA V in C#. And have some experience using Unity3D
-                    </p>
-                  </li>
-                  <li>
-                    <h5>This webpage was entirely done by me</h5>
-                    <p>I made this website using my knowledge of front end development using CSS, Bootstrap, JS and html5
-                    </p>
-                  </li>
-                  <p style="font-size: smaller;">Several other smaller projects were done, most of them in University others as part of personal experiments</p>
-                    
-                  </ul>
+      </div>
 
-                  
-                 
-                </div>
-                <div class="card" style="width: 28rem;">
-               
-                  <div class="card-body">
-                    <h2 class="card-title">Hire me!</h2>
-                    <p class="card-text">I am looking to start my career as a Junior developer for a company.</p>
-                    <p>If you are a company and are interested in recruiting a very talented coder, who is also always willing to learn even more, then, please consider hiring me.</p>
-                    <a href="https://www.linkedin.com/in/filipe-fortunato-783b0a184/" class="btn btn-primary">Check my LinkedIn</a>
-                   
-                  </div>
-              </div>
-            </div>
-            
-          </div>
+    </div>
+    <div class="flexer">
+      <div class="nes-container is-rounded is-dark">
+        <p class="title">🧡Goals</p>
+        <div class="body">
+          Currently i am looking for a job oportunity as a Junior developer. I am very talented and professional, i know i am a great fit for any
+          project involving python or C#, be it data science, game development, cybersecurity or backend development.
+
         </div>
+        <div class="body">
+          My "Dream" projects would be to be part of a game development team, or create my own dev-team somewhere in the future and have my game published on Steam.
+        </div>
+      </div>
 
 
-        
+    </div>
 
-      </main>
-      
+    
+  </main>
 
+ 
+ 
+    
 
+</body>
 </html>

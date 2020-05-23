@@ -2,22 +2,82 @@ h1{
     font-family: Lacquer;
 }
 
-.ice_info{
+.menuBar{
 
-    background-color: lightblue;
+    font-size: smaller;
+    text-shadow: black 2px 2px;
+}
+.avatar1{
+  display: inline;
+  height: 81px;
+    
+  
 }
 
-.navbar {
-    min-height: 80px;
-    margin-bottom: 10px;
+
+.flexer{
+  display: flex;
+  flex-direction: row;
+}
+
+.above{
+  background-color: blanchedalmond;
+  margin-top: 1px;
+
+}
+.topNav {
+  color: chartreuse;
+  text-shadow: black 3px 3px;
+  font-size: larger;
+  padding-bottom: 10px;
   }
-  
-  .navbar-brand {
-    padding: 0 30px;
-    height: 25px;
-    line-height: 50px;
-  }
+
   
 body{
     background-image: url("img/bg.jpg");
+   
+    background-size: 100%;
+}
+
+.title{
+  background-color: blanchedalmond;
+  color: blue;
+  text-shadow: black 2px 2px;
+  font-size: large;
+}
+
+.bodyMain{
+  font-size: small;
+  text-shadow: black 2px 2px;
+
+}
+
+.lists{
+  color: burlywood;
+  font-size: small;
+  text-shadow: black 1px 3px;
+}
+
+
+.intro{
+  font-size: medium;
+  color: rgb(187, 183, 183);
+  text-shadow: rgb(2, 2, 2) 2px 2px;
+  padding-top: 10px;
+
+}
+
+.body_inst{
+  padding-top: 15px;
+  font-size: xx-small;
+  color: rgb(255, 255, 255);
+  text-shadow:black 2px 2px;
+
+}
+
+.body{
+  padding-top: 10px;
+  font-size: xx-small;
+  color: rgb(255, 255, 255);
+  text-shadow:black 4px 2px;
 }
